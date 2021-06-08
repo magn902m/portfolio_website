@@ -28,6 +28,11 @@ img {
   height: auto;
 }
 
+#first_section .so_me_icon img {
+  width: 40px;
+  height: auto;
+}
+
 form {
   display: grid;
   gap: 2rem;
