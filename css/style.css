@@ -21,6 +21,13 @@ img {
   height: auto;
 }
 
+.logo img {
+  width: 70px;
+  min-width: 40px;
+  max-width: 100%;
+  height: auto;
+}
+
 form {
   display: grid;
   gap: 2rem;
