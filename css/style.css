@@ -611,8 +611,7 @@ footer p {
 
 /********** om end **********/
 
-/********** web resposive site v2 start **********/
-
+/********** web start **********/
 #web1_section .section_wrapper,
 #web2_section .section_wrapper {
   display: grid;
@@ -622,8 +621,43 @@ footer p {
 #web2_section {
   background: var(--color1_5);
 }
+/********** web end **********/
 
-/********** web resposive site v2 end **********/
+/********** ux start **********/
+#ux1_section .section_wrapper,
+#ux2_section .section_wrapper {
+  display: grid;
+  gap: var(--space-md);
+}
+
+#ux2_section {
+  background: var(--color1_5);
+}
+/********** ux end **********/
+
+/********** animation start **********/
+#animation1_section .section_wrapper,
+#animation2_section .section_wrapper {
+  display: grid;
+  gap: var(--space-md);
+}
+
+#animation2_section {
+  background: var(--color1_5);
+}
+/********** animation end **********/
+
+/********** indhold start **********/
+#indhold1_section .section_wrapper,
+#indhold2_section .section_wrapper {
+  display: grid;
+  gap: var(--space-md);
+}
+
+#indhold2_section {
+  background: var(--color1_5);
+}
+/********** indhold end **********/
 
 /********** media start **********/
 
@@ -785,7 +819,7 @@ footer p {
 }
 /* kompetencer - desktop end */
 
-/* web resposive site v2 desktop start */
+/* web desktop start */
 @media screen and (min-width: 650px) {
   #web1_section .section_wrapper,
   #web2_section .section_wrapper {
@@ -802,7 +836,64 @@ footer p {
     grid-area: 1 / 1 / 1 / 2;
   }
 }
-/* web resposive site v2 desktop end */
+/* web desktop end */
+
+/* ux desktop start */
+@media screen and (min-width: 650px) {
+  #ux1_section .section_wrapper,
+  #ux2_section .section_wrapper {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  #ux2_section .section_wrapper .col_left {
+    grid-column: 2/3;
+  }
+
+  #ux2_section .section_wrapper .col_right {
+    /* grid-column: 1/2;
+    grid-row: 1; */
+    grid-area: 1 / 1 / 1 / 2;
+  }
+}
+/* ux desktop end */
+
+/* animation desktop start */
+@media screen and (min-width: 650px) {
+  #animation1_section .section_wrapper,
+  #animation2_section .section_wrapper {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  #animation2_section .section_wrapper .col_left {
+    grid-column: 2/3;
+  }
+
+  #animation2_section .section_wrapper .col_right {
+    /* grid-column: 1/2;
+    grid-row: 1; */
+    grid-area: 1 / 1 / 1 / 2;
+  }
+}
+/* animation desktop end */
+
+/* indhold desktop start */
+@media screen and (min-width: 650px) {
+  #indhold1_section .section_wrapper,
+  #indhold2_section .section_wrapper {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  #indhold2_section .section_wrapper .col_left {
+    grid-column: 2/3;
+  }
+
+  #indhold2_section .section_wrapper .col_right {
+    /* grid-column: 1/2;
+    grid-row: 1; */
+    grid-area: 1 / 1 / 1 / 2;
+  }
+}
+/* indhold desktop end */
 
 /* kontakt mig udvidet start */
 @media screen and (min-width: 750px) {
