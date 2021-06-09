@@ -44,7 +44,15 @@
 
     <link rel="stylesheet" href="https://use.typekit.net/oye8zkr.css" />
 
-    <title>Om</title>
+    <!-- Meta tag -->
+    <title>Design by Magnus – Jeg gør altid mit bedste.</title>
+    <meta name="title" content="Design by Magnus – Jeg gør altid mit bedste." />
+    <meta
+      name="description"
+      content="Her er min portfolio, som viser hvad jeg kan. Jeg hedder Magnus og studere 1. semester på KEA, som multimediedesigner."
+    />
+
+    <title>Forside</title>
   </head>
   <body>
     <header>
@@ -54,46 +62,67 @@
         /></a>
       </div>
       <nav>
-        <buttom id="menuknap"></buttom>
-        <ul>
+        <buttom id="menuknap">☰</buttom>
+        <ul id="menu" class="hidden">
           <li><a href="index.html#second_section">Portfolio</a></li>
           <li><a href="om.html#sixth_section">Kompetencer</a></li>
           <li><a href="om.html">Om</a></li>
-          <li><a href="#third_section">Kontakt</a></li>
+          <li><a class="kontaktknap" href="#third_section">Kontakt</a></li>
         </ul>
       </nav>
+      <hr />
     </header>
 
     <main>
       <section id="five_section">
+        <h2>Om mig</h2>
         <article class="section_wrapper">
-          <h2></h2>
           <div class="col_left">
-            <img src="" alt="" />
+            <img src="assets/img/fb_pic.jpeg" alt="" />
           </div>
           <div class="col_right">
-            <h2></h2>
-            <h3></h3>
-            <p></p>
-            <a href="" id="knap"></a>
+            <h2>Responsive site v2</h2>
+            <h3>Grundlæggende web</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid
+              iste sequi sit minima! Inventore voluptate labore eaque. Eligendi
+              alias voluptate obcaecati, porro ex dolores ducimus itaque, quidem
+              molestiae dignissimos nesciunt!
+            </p>
+            <a href="" id="knap">Portfolio dokumentation</a>
           </div>
         </article>
       </section>
 
       <section id="sixth_section">
+        <h2>Kompetencer</h2>
         <article class="section_wrapper">
-          <h2></h2>
           <div class="col_left">
-            <h3></h3>
-            <p></p>
+            <h3>HTML</h3>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laborum
+              iusto veniam quae minima blanditiis ducimus ab necessitatibus,
+              molestiae iure voluptas nihil possimus maxime, sint libero
+              doloremque dolor beatae error atque.
+            </p>
           </div>
           <div class="col_middel">
-            <h3></h3>
-            <p></p>
+            <h3>CSS</h3>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Earum
+              ipsa praesentium quae, est sequi, tempora fugiat delectus facere
+              voluptatum quos eos consequatur sint nulla reprehenderit! Ullam
+              totam aperiam nulla consequuntur?
+            </p>
           </div>
           <div class="col_right">
-            <h3></h3>
-            <p></p>
+            <h3>JavaScript</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Error
+              accusantium obcaecati quas, ea deleniti expedita quis nam sunt
+              voluptate, perferendis asperiores molestias distinctio porro
+              voluptatum, dicta ipsum deserunt facilis placeat.
+            </p>
           </div>
 
           <div class="kompetence_galleri">
@@ -133,21 +162,43 @@
       <section id="third_section">
         <article class="section_wrapper">
           <div class="col_left">
-            <h2></h2>
-            <div class="mail"><img src="" alt="" /><a href=""></a></div>
+            <h2>Kontakt <span>mig</span> her!</h2>
+            <div class="mail">
+              <img
+                src="assets/img/icons/mail_icon_2.svg"
+                alt="Billede af et brev"
+              /><a href="mailto:magn902m@stud.kea.dk">magn902m@stud.kea.dk</a>
+            </div>
 
-            <div class="mobile"><img src="" alt="" /><a href=""></a></div>
+            <div class="mobile">
+              <img
+                src="assets/img/icons/telefon_icon_2.svg"
+                alt="Billede af en telefon"
+              /><a href="">+45 50 66 93 39</a>
+            </div>
 
             <div class="so_me_icon">
-              <a href=""><img src="" alt="" /></a>
-              <a href=""><img src="" alt="" /></a>
+              <a href=""
+                ><img
+                  src="assets/img/so_me_logo/fb_logo_green.svg"
+                  alt="Facebook logo"
+              /></a>
+              <a href=""
+                ><img
+                  src="assets/img/so_me_logo/insta_logo_green.svg"
+                  alt="Instagram logo"
+              /></a>
             </div>
           </div>
 
           <div class="col_right">
             <form action="tak.html" name="kontakt" netlify>
               <div class="form-felt">
-                <label for="full-name">Fulde navn</label>
+                <img
+                  src="assets/img/icons/profil_icon_1.svg"
+                  alt="Billede af en profil"
+                />
+                <label for="full-name"></label>
                 <input
                   type="text"
                   id="full-name"
@@ -158,7 +209,11 @@
               </div>
 
               <div class="form-felt">
-                <label for="email">E-mail</label>
+                <img
+                  src="assets/img/icons/mail_icon_1.svg"
+                  alt="Billede af et brev"
+                />
+                <label for="email"></label>
                 <input
                   type="email"
                   id="email"
@@ -169,7 +224,11 @@
               </div>
 
               <div class="form-felt">
-                <label>Meddelelse</label>
+                <img
+                  src="assets/img/icons/pen_icon_2.svg"
+                  alt="Billede af en blyant"
+                />
+                <label></label>
                 <textarea
                   placeholder="Din besked*"
                   name="besked"
@@ -187,11 +246,18 @@
       </section>
     </main>
 
-    <footer>
+    <aside>
       <div class="arrow_top">
-        <a href=""><img src="" alt="" /></a>
+        <a href="#"
+          ><img src="assets/img/icons/top_button_black.svg" alt="Sort pil"
+        /></a>
       </div>
-      <p></p>
+    </aside>
+
+    <footer>
+      <p>Af: Magnus Nielsen | designbymagnus.dk | KEA MMD</p>
     </footer>
+
+    <script src="js/hambrugermenu.js"></script>
   </body>
 </html>
