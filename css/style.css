@@ -555,6 +555,38 @@ footer p {
   margin-left: var(--space-xs);
 }
 
+/* portfolio img start */
+
+#second_section .col_left_1 {
+  background-image: url(../assets/img/portfolio_icons/web1.png);
+}
+#second_section .col_right_1 {
+  background-image: url(../assets/img/portfolio_icons/web2.png);
+}
+
+#second_section .col_right_2 {
+  background-image: url(../assets/img/portfolio_icons/ux2.png);
+}
+#second_section .col_left_2 {
+  background-image: url(../assets/img/portfolio_icons/ux1.png);
+}
+
+#second_section .col_left_3 {
+  background-image: url(../assets/img/portfolio_icons/animation1.svg);
+}
+#second_section .col_right_3 {
+  background-image: url(../assets/img/portfolio_icons/animation2.svg);
+}
+
+#second_section .col_left_4 {
+  background-image: url(../assets/img/portfolio_icons/indhold1.webp);
+}
+#second_section .col_right_4 {
+  background-image: url(../assets/img/portfolio_icons/indhold2.svg);
+}
+
+/* portfolio img end */
+
 /* portfolio end */
 /********** index end **********/
 
