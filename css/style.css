@@ -693,6 +693,7 @@ footer p {
 
 /********** subpages start **********/
 
+/* portfolio subpages start */
 #web1_section img,
 #ux1_section img,
 #animation1_section img,
@@ -708,11 +709,35 @@ footer p {
   border: 2rem var(--color1_3) solid;
   border-radius: 0.5rem;
 }
+/* portfolio subpages end */
 
+/* om subpage start */
 #five_section img {
   border: 2rem var(--color1_5) solid;
   border-radius: 0.5rem;
 }
+/* om subpage end */
+
+/* tak subpage start */
+#tak_section {
+  text-align: center;
+}
+
+#tak_section .section_wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-sm);
+}
+
+#tak_section .navn_h1 {
+  font-family: peachy-keen-jf, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 3.8rem;
+  color: var(--color2_4);
+}
+
+/* tak subpage end */
 
 /********** subpages end **********/
 
