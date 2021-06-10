@@ -756,6 +756,10 @@ footer p {
   padding-bottom: var(--space-sm);
 }
 
+#doku_section #knap {
+  padding: 0.5rem 0.5rem;
+}
+
 #doku_section #first_ul {
   border-top: 0.3rem var(--color2_1) solid;
   padding-top: var(--space-sm);
@@ -771,7 +775,7 @@ footer p {
   grid-column: 1/4;
 }*/
 
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 741px) {
   #doku_section ul {
     display: flex;
     gap: var(--space-sm);
