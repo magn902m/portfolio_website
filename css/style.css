@@ -691,6 +691,31 @@ footer p {
 }
 /********** indhold end **********/
 
+/********** subpages start **********/
+
+#web1_section img,
+#ux1_section img,
+#animation1_section img,
+#indhold1_section img {
+  border: 2rem var(--color1_5) solid;
+  border-radius: 0.5rem;
+}
+
+#web2_section img,
+#ux2_section img,
+#animation2_section img,
+#indhold2_section img {
+  border: 2rem var(--color1_3) solid;
+  border-radius: 0.5rem;
+}
+
+#five_section img {
+  border: 2rem var(--color1_5) solid;
+  border-radius: 0.5rem;
+}
+
+/********** subpages end **********/
+
 /********** media start **********/
 
 /* menu udvidet start */
