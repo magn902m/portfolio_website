@@ -152,10 +152,16 @@ a {
   display: block;
   text-align: center;
   margin-top: var(--space-lg);
+
+  transition: 0.3s;
 }
 
 .knap:hover {
   color: var(--color2_4);
+
+  box-shadow: 1px 1px var(--color2_2), 2px 2px var(--color2_2),
+    3px 3px var(--color2_2);
+  transform: translateX(-3px);
 }
 
 span {
@@ -254,10 +260,16 @@ nav #menu {
   background-color: var(--color1_2);
   color: var(--color2_1);
   border-radius: 0.5rem;
+
+  transition: 0.3s;
 }
 
 .kontaktknap:hover {
   color: var(--color2_4);
+
+  box-shadow: 1px 1px var(--color2_2), 2px 2px var(--color2_2),
+    3px 3px var(--color2_2);
+  transform: translateX(-3px);
 }
 
 /* menu end */
