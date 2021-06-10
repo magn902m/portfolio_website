@@ -740,6 +740,48 @@ footer p {
 
 /* portfolio_doku start */
 
+#doku_section h1 {
+  grid-column: 2/3;
+  text-align: center;
+  margin-bottom: var(--space-md);
+}
+
+#doku_section h2 {
+  text-align: center;
+}
+
+#doku_section ul {
+  list-style: none;
+  border-bottom: 0.3rem var(--color2_1) solid;
+  padding-bottom: var(--space-sm);
+}
+
+#doku_section #first_ul {
+  border-top: 0.3rem var(--color2_1) solid;
+  padding-top: var(--space-sm);
+}
+
+#doku_section .section_wrapper {
+  display: grid;
+  gap: var(--space-md);
+}
+
+/*#doku_section .bg_color {
+  background: var(--color1_5);
+  grid-column: 1/4;
+}*/
+
+@media screen and (min-width: 800px) {
+  #doku_section ul {
+    display: flex;
+    gap: var(--space-sm);
+  }
+
+  #doku_section #knap {
+    margin-top: 0;
+  }
+}
+
 /* portfolio_doku end */
 
 /********** subpages end **********/
