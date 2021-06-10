@@ -223,6 +223,10 @@ header a:hover {
   height: auto;
 }
 
+.logo:hover {
+  opacity: 0.5;
+}
+
 header nav {
   display: contents;
 }
