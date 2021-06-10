@@ -539,7 +539,7 @@ footer p {
 #second_section .col_right_3:hover,
 #second_section .col_right_4:hover {
   background-color: var(--color1_5);
-  transition: ease-in-out 0.2s;
+  transition: ease-in-out 0.4s;
   border-radius: 0.45rem;
 }
 
