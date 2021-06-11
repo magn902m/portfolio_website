@@ -189,6 +189,8 @@ header {
   justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
+
+  box-shadow: 1px 1px 20px var(--color1_4);
 }
 
 header hr {
@@ -958,6 +960,16 @@ footer p {
 
   #seven_section {
     display: none;
+  }
+
+  #sixth_section span {
+    color: var(--color1_4);
+  }
+}
+
+@media screen and (min-width: 500px) {
+  #sixth_section span {
+    color: var(--color1_2);
   }
 }
 
