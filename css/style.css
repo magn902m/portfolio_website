@@ -235,7 +235,7 @@ header ul a:hover {
 }
 
 .logo:hover {
-  opacity: 0.5;
+  opacity: 0.8;
 }
 
 header nav {
@@ -408,7 +408,7 @@ button:hover {
 /* pil til top start */
 
 aside img {
-  width: 70px;
+  width: 50px;
   min-width: 40px;
   max-width: 100%;
   height: auto;
