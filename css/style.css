@@ -141,6 +141,7 @@ p {
 a {
   cursor: pointer;
   font-family: "Rubik";
+  transition: 1s;
 }
 
 .knap {
@@ -198,7 +199,7 @@ header hr {
   width: 100%;
 }
 
-header a {
+header ul a {
   display: inline-block;
   width: 100%;
   text-transform: capitalize;
@@ -212,10 +213,18 @@ header a {
   font-style: normal;
   color: var(--color2_4);
   padding: 0.5rem 0.5rem;
+
+  border-radius: 0.5rem;
 }
 
-header a:hover {
+header ul a:hover {
+  background: var(--color1_2);
+  box-shadow: 1px 1px var(--color2_2), 2px 2px var(--color2_2),
+    3px 3px var(--color2_2);
+  transform: translateX(-3px);
   color: var(--color2_1);
+
+  transition: 0.3s;
 }
 
 .logo img {
@@ -267,7 +276,8 @@ nav #menu {
   color: var(--color2_1);
   border-radius: 0.5rem;
 
-  transition: 0.3s;
+  /* transition: 0.3s; */
+  transition: 1s;
 }
 
 .kontaktknap:hover {
@@ -422,6 +432,34 @@ aside {
   padding-bottom: var(--space-md);
 }
 
+.rotation {
+  animation-name: rotation_kf;
+  animation-duration: 0.5s;
+  animation-iteration-count: 1;
+  animation-timing-function: linear;
+}
+
+@keyframes rotation_kf {
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.glow {
+  animation-name: glow_kf;
+  animation-duration: 2s;
+  animation-iteration-count: 2;
+  animation-timing-function: linear;
+  animation-direction: alternate;
+}
+
+@keyframes glow_kf {
+  100% {
+    /* filter: drop-shadow(0vw 0vw 2vw var(--color1_2)); */
+    filter: drop-shadow(0vw 0vw 2vw var(--color2_1));
+  }
+}
+
 /* pil til top end */
 
 /* footer start */
@@ -534,6 +572,7 @@ footer p {
 
   display: grid;
   grid-template-rows: 5fr 1fr 1fr;
+  margin: 0.2rem 0.2rem;
 }
 
 #second_section .col_left_1:hover,
@@ -655,6 +694,15 @@ footer p {
   border: 0.5rem var(--color2_1) solid;
   border-radius: 0.2rem;
   text-align: center;
+}
+
+#seven_section .kompetence_galleri .col {
+  transition: 0.5s;
+}
+
+#seven_section .kompetence_galleri .col:hover {
+  background: var(--color1_3);
+  transform: scale(1.1);
 }
 
 /* kompetencer end */
