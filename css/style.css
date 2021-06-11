@@ -725,6 +725,16 @@ footer p {
   border: 2rem var(--color1_3) solid;
   border-radius: 0.5rem;
 }
+
+@media screen and (min-width: 650px) {
+  #web1_section .col_text,
+  #ux1_section .col_text,
+  #animation1_section .col_text,
+  #indhold1_section .col_text {
+    grid-column: 1/4;
+  }
+}
+
 /* portfolio subpages end */
 
 /* om subpage start */
