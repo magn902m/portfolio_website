@@ -98,6 +98,9 @@ h1 {
   /* font-size: 3.8rem; */
   font-size: clamp(1.8rem, 0.6rem + 5.3333vw, 3.4rem);
   color: var(--color2_4);
+
+  text-align: center;
+  margin-top: var(--space-lg);
 }
 
 h2 {
@@ -261,7 +264,7 @@ nav #menu {
   transform: none;
 
   border-top: 0.15rem solid var(--color2_1);
-  /* margin-top: var(--space-xs); */
+  margin-top: var(--space-sm);
   flex-basis: 100%;
 }
 
@@ -360,7 +363,7 @@ nav #menu {
   grid-area: 1 / 1;
   z-index: 10;
 
-  margin-top: 0.8rem;
+  margin-top: 0.2rem;
   margin-left: var(--space-xs);
 }
 
@@ -405,6 +408,11 @@ button {
 button:hover {
   color: var(--color2_4);
 }
+
+#third_section .knap {
+  margin-top: var(--space-sm);
+}
+
 /* kontakt mig end */
 
 /* pil til top start */
@@ -492,7 +500,7 @@ footer p {
 
   background-position: 10% 80%;
   width: 100%;
-  height: 56.25vh;
+  height: 100%;
   background-color: var(--color1_3);
   background-position: 10%;
   background-repeat: no-repeat;
