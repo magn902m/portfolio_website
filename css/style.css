@@ -737,9 +737,13 @@ footer p {
   background: var(--color1_5);
 }
 
+#animation_section h2 {
+  text-align: center;
+}
+
 #animation_section .animation {
   border: 2px solid black;
-  width: 20vw;
+  width: 100%;
   height: 20vw;
   position: relative;
   overflow: hidden;
@@ -753,7 +757,7 @@ footer p {
   background-repeat: no-repeat;
   background-size: 100%;
   top: 7.5vw;
-  left: 7.5vw;
+  left: 47%;
 }
 
 /********** animation end **********/
