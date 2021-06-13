@@ -444,34 +444,6 @@ aside {
   padding-bottom: var(--space-md);
 }
 
-.rotation {
-  animation-name: rotation_kf;
-  animation-duration: 0.5s;
-  animation-iteration-count: 1;
-  animation-timing-function: linear;
-}
-
-@keyframes rotation_kf {
-  100% {
-    transform: rotate(360deg);
-  }
-}
-
-.glow {
-  animation-name: glow_kf;
-  animation-duration: 2s;
-  animation-iteration-count: 2;
-  animation-timing-function: linear;
-  animation-direction: alternate;
-}
-
-@keyframes glow_kf {
-  100% {
-    /* filter: drop-shadow(0vw 0vw 2vw var(--color1_2)); */
-    filter: drop-shadow(0vw 0vw 2vw var(--color2_1));
-  }
-}
-
 /* pil til top end */
 
 /* footer start */
@@ -764,6 +736,26 @@ footer p {
 #animation2_section {
   background: var(--color1_5);
 }
+
+#animation_section .animation {
+  border: 2px solid black;
+  width: 20vw;
+  height: 20vw;
+  position: relative;
+  overflow: hidden;
+}
+
+.skildpadde {
+  position: absolute;
+  width: 5vw;
+  height: 5vw;
+  background-image: url(../assets/img/portfolio_icons/animation1.svg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  top: 7.5vw;
+  left: 7.5vw;
+}
+
 /********** animation end **********/
 
 /********** indhold start **********/
@@ -892,6 +884,68 @@ footer p {
 /* portfolio_doku end */
 
 /********** subpages end **********/
+
+/********** animationer start **********/
+
+.rotation {
+  animation-name: rotation_kf;
+  animation-duration: 0.5s;
+  animation-iteration-count: 1;
+  animation-timing-function: linear;
+}
+
+@keyframes rotation_kf {
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.glow {
+  animation-name: glow_kf;
+  animation-duration: 2s;
+  animation-iteration-count: 2;
+  animation-timing-function: linear;
+  animation-direction: alternate;
+}
+
+@keyframes glow_kf {
+  100% {
+    /* filter: drop-shadow(0vw 0vw 2vw var(--color1_2)); */
+    filter: drop-shadow(0vw 0vw 2vw var(--color2_1));
+  }
+}
+
+.hop {
+  animation-name: hop_kf;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  animation-timing-function: cubic-bezier(0.55, 0.06, 0.68, 0.19);
+  animation-direction: alternate;
+}
+
+@keyframes hop_kf {
+  0% {
+    transform: translateY(-7.5vw);
+  }
+  100% {
+    transform: translateY(7.5vw);
+  }
+}
+
+.rotation2 {
+  animation-name: rotation2_kf;
+  animation-duration: 0.5s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+@keyframes rotation2_kf {
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+/********** animationer end **********/
 
 /********** media start **********/
 
