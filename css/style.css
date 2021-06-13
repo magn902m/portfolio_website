@@ -509,6 +509,8 @@ footer p {
   background-color: var(--color1_3);
   background-repeat: no-repeat;
   background-size: contain;
+
+  margin-top: var(--space-lg);
 }
 
 @media screen and (max-width: 498px) {
