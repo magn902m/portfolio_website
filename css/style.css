@@ -220,6 +220,8 @@ header ul a {
   padding: 0.5rem 0.5rem;
 
   border-radius: 0.5rem;
+
+  transition: 1s;
 }
 
 header ul a:hover {
