@@ -782,16 +782,22 @@ footer p {
 #ux1_section img,
 #animation1_section img,
 #indhold1_section img {
-  border: 2rem var(--color1_5) solid;
-  border-radius: 0.5rem;
+  /* border: 2rem var(--color1_5) solid;
+  border-radius: 0.5rem; */
+
+  border: 1rem var(--color1_5) solid;
+  border-radius: 1.2rem;
 }
 
 #web2_section img,
 #ux2_section img,
 #animation2_section img,
 #indhold2_section img {
-  border: 2rem var(--color1_3) solid;
-  border-radius: 0.5rem;
+  /* border: 2rem var(--color1_3) solid;
+  border-radius: 0.5rem; */
+
+  border: 1rem var(--color1_3) solid;
+  border-radius: 1.2rem;
 }
 
 @media screen and (min-width: 650px) {
