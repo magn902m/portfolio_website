@@ -508,6 +508,23 @@ footer p {
 
 #first_section .col_right h1 {
   margin: 0;
+  display: inline-block;
+}
+
+h1 {
+  display: flex;
+  flex-direction: column;
+}
+
+h1 hr {
+  border: 0;
+  border-bottom-color: currentcolor;
+  border-bottom-style: none;
+  border-bottom-width: 0px;
+  border-bottom: 0.3rem var(--color1_2) solid;
+  width: 6rem;
+  align-self: center;
+  border-radius: 1.2rem;
 }
 
 /* landing page end */
