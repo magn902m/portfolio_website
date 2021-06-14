@@ -806,15 +806,6 @@ footer p {
   border-radius: 1.2rem;
 }
 
-@media screen and (min-width: 650px) {
-  #web1_section .col_text,
-  #ux1_section .col_text,
-  #animation1_section .col_text,
-  #indhold1_section .col_text {
-    grid-column: 1/4;
-  }
-}
-
 /* portfolio subpages end */
 
 /* om subpage start */
@@ -880,17 +871,6 @@ footer p {
   background: var(--color1_5);
   grid-column: 1/4;
 }*/
-
-@media screen and (min-width: 741px) {
-  #doku_section ul {
-    display: flex;
-    gap: var(--space-sm);
-  }
-
-  #doku_section .knap {
-    margin-top: 0;
-  }
-}
 
 /* portfolio_doku end */
 
@@ -1016,6 +996,7 @@ footer p {
 /* index - landpage page desktop end */
 
 /* index - portfolio desktop start*/
+
 @media screen and (min-width: 598px) {
   .portfolio_grid_1 {
     grid-template-columns: 2fr 1fr;
@@ -1105,6 +1086,16 @@ footer p {
     justify-self: end;
   }
 }
+
+@media screen and (min-width: 650px) {
+  #web1_section .col_text,
+  #ux1_section .col_text,
+  #animation1_section .col_text,
+  #indhold1_section .col_text {
+    grid-column: 1/4;
+  }
+}
+
 /* index - portfolio desktop start*/
 
 /* om mig - desktop start */
@@ -1218,6 +1209,19 @@ footer p {
   }
 }
 /* indhold desktop end */
+
+/* portfolio_doku start */
+@media screen and (min-width: 741px) {
+  #doku_section ul {
+    display: flex;
+    gap: var(--space-sm);
+  }
+
+  #doku_section .knap {
+    margin-top: 0;
+  }
+}
+/* portfolio_doku end */
 
 /* kontakt mig udvidet start */
 @media screen and (min-width: 750px) {
