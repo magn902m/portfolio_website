@@ -1231,4 +1231,11 @@ footer p {
 }
 /* kontakt mig udvidet end */
 
+@media (orientation: landscape) and (max-width: 900px) {
+  header {
+    padding-top: var(--space-xxs);
+    padding-bottom: var(--space-xxs);
+  }
+}
+
 /********** media end **********/
