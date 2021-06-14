@@ -737,27 +737,37 @@ footer p {
   background: var(--color1_5);
 }
 
-#animation_section h2 {
+#ani_test_section h2 {
   text-align: center;
 }
 
-#animation_section .animation {
-  border: 2px solid black;
+#ani_test_section p {
+  text-align: center;
+}
+
+#ani_test_section .knap {
+  cursor: pointer;
+  font-family: "Rubik", sans-serif;
+}
+
+#ani_test_section .animation {
+  border: 2px solid var(--color2_1);
+  border-radius: 1.2rem;
   width: 100%;
-  height: 20vw;
+  height: 28vw;
   position: relative;
   overflow: hidden;
 }
 
 .skildpadde {
   position: absolute;
-  width: 5vw;
-  height: 5vw;
+  width: 15vw;
+  height: 15vw;
   background-image: url(../assets/img/portfolio_icons/animation1.svg);
   background-repeat: no-repeat;
   background-size: 100%;
   top: 7.5vw;
-  left: 47%;
+  left: 42%;
 }
 
 /********** animation end **********/
