@@ -504,6 +504,7 @@ footer p {
 #first_section .col_right {
   grid-column: 1 /3;
   grid-row: 1 / 2;
+  margin-left: var(--space-sm);
 }
 
 #first_section .col_right h1 {
@@ -1025,7 +1026,7 @@ h1 hr {
   #first_section .col_right {
     grid-column: 1 / 2;
     align-self: center;
-    text-align: end;
+    text-align: center;
     margin-left: var(--space-xs);
   }
 }
