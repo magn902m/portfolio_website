@@ -69,7 +69,7 @@ section {
   padding: var(--space-lg) 0;
 }
 
-section > article {
+section > article:not(#second_section .section_wrapper) {
   grid-column: 2/3;
   padding-left: var(--space-sm);
   padding-right: var(--space-sm);
@@ -539,6 +539,8 @@ hr {
   background: var(--color1_5);
   /* En del af #first_section og #krop */
   box-shadow: 1px -10px 20px var(--color1_4);
+
+  grid-template-columns: 1fr;
 }
 
 #second_section h2 {
@@ -551,7 +553,7 @@ hr {
 #second_section .portfolio_grid_3,
 #second_section .portfolio_grid_4 {
   display: grid;
-  grid-template-columns: 1fr;
+  /* grid-template-columns: 1fr; */
   gap: var(--space-lg);
   margin-bottom: var(--space-lg);
 }
@@ -627,27 +629,34 @@ hr {
 }
 #second_section .col_right_1 {
   background-image: url(../assets/img/portfolio_icons/web2.png);
+  background-size: 85%;
 }
 
 #second_section .col_right_2 {
   background-image: url(../assets/img/portfolio_icons/ux2.svg);
+  background-size: 45% 90%;
 }
 #second_section .col_left_2 {
   background-image: url(../assets/img/portfolio_icons/ux1.svg);
+  background-size: 85%;
 }
 
 #second_section .col_left_3 {
   background-image: url(../assets/img/portfolio_icons/animation1.svg);
+  background-size: 50% 90%;
 }
 #second_section .col_right_3 {
   background-image: url(../assets/img/portfolio_icons/animation2.svg);
+  background-size: 50% 90%;
 }
 
 #second_section .col_left_4 {
   background-image: url(../assets/img/portfolio_icons/indhold1.webp);
+  background-size: 200px 200px;
 }
 #second_section .col_right_4 {
   background-image: url(../assets/img/portfolio_icons/indhold2.svg);
+  background-size: 80% 90%;
 }
 
 /* portfolio img end */
@@ -1057,18 +1066,20 @@ hr {
 
   #second_section .col_left_1 {
     grid-column: 1 / 2;
-    width: 95%;
+    /* width: 95%; */
+    width: 56vw;
     height: 30vh;
-    align-self: center;
-    justify-self: end;
+    /* align-self: center; */
+    justify-self: start;
   }
 
   #second_section .col_right_1 {
     grid-column: 2 / 2;
-    width: 90%;
+    /* width: 90%; */
+    width: 28vw;
     height: 30vh;
-    align-self: center;
-    justify-self: start;
+    /* align-self: center; */
+    justify-self: end;
   }
 
   #second_section .portfolio_grid_2 {
@@ -1079,18 +1090,20 @@ hr {
 
   #second_section .col_left_2 {
     grid-column: 2 / 2;
-    width: 90%;
+    /* width: 95%; */
+    width: 56vw;
     height: 30vh;
-    align-self: center;
-    justify-self: start;
+    /* align-self: center; */
+    justify-self: end;
   }
 
   #second_section .col_right_2 {
     grid-column: 1 / 2;
-    width: 95%;
+    /* width: 90%; */
+    width: 28vw;
     height: 30vh;
-    align-self: center;
-    justify-self: end;
+    /* align-self: center; */
+    justify-self: start;
   }
 
   .portfolio_grid_3 {
@@ -1101,18 +1114,20 @@ hr {
 
   #second_section .col_left_3 {
     grid-column: 1 / 2;
-    width: 95%;
+    /* width: 95%; */
+    width: 56vw;
     height: 30vh;
-    align-self: center;
-    justify-self: end;
+    /* align-self: center; */
+    justify-self: start;
   }
 
   #second_section .col_right_3 {
     grid-column: 2 / 2;
-    width: 90%;
+    /* width: 90%; */
+    width: 28vw;
     height: 30vh;
-    align-self: center;
-    justify-self: start;
+    /* align-self: center; */
+    justify-self: end;
   }
 
   #second_section .portfolio_grid_4 {
@@ -1123,18 +1138,20 @@ hr {
 
   #second_section .col_left_4 {
     grid-column: 2 / 2;
-    width: 90%;
+    /* width: 95%; */
+    width: 56vw;
     height: 30vh;
-    align-self: center;
-    justify-self: start;
+    /* align-self: center; */
+    justify-self: end;
   }
 
   #second_section .col_right_4 {
     grid-column: 1 / 2;
-    width: 95%;
+    /* width: 90%; */
+    width: 28vw;
     height: 30vh;
-    align-self: center;
-    justify-self: end;
+    /* align-self: center; */
+    justify-self: start;
   }
 }
 
